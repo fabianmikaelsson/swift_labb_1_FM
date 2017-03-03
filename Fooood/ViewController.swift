@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var searchFood: UITextField!
+
+
     
-    @IBAction func searchButton(_ sender: Any) {
-    }
+    
     
     
     override func viewDidLoad() {
@@ -25,6 +26,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func searchButton(_ sender: Any) {
+    }
 
 }
 
